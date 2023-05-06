@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thuc hanh 2</title>
+  <style>
+    section {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .img {
+      padding: 15px;
+    }
+
+    header {
+      font-size: 20px;
+      text-align: center;
+    }
+
+    h2 {
+      color: brown;
+    }
+
+    .red {
+      color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h2 id="title">Lều báo</h2>
+  </header>
+  <article>
+    <section>
+      <div class="img"><img src="/img/rau_bap_cai1_1666929943740407535144_15243858.jpg" alt=""></div>
+      <div>
+        <h3>tieu de</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, quia.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="img"><img src="/img/Haaland_800_J_1.jpg" alt=""></div>
+      <div>
+        <h3>tieu de</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, quia.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="img"><img src="/img/gar.jpeg" alt=""></div>
+      <div>
+        <h3>tieu de</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, quia.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="img"><img src="/img/344800494_795580364988115_432432551527678681_n_1.jpg" alt=""></div>
+      <div>
+        <h3>tieu de</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, quia.</p>
+      </div>
+    </section>
+  </article>
+  <script>
+    let element = document.getElementById("title");
+    setInterval(function() {
+      element.classList.toggle('red');
+    }, 1000)
+  </script>
+</body>
+
+</html>
